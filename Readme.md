@@ -36,32 +36,6 @@ Low Key Mode: Specialized slider controls for darkness intensity and single-sour
 5. Art Direction (The Artistic DNA)
 Infuse the stylistic "flavor" of world-renowned photographers (e.g., Juergen Teller, Kacper Kasprzyk) to apply specific color science, film grain, and textures.
 
-🛠️ Installation
-Clone the Repository:
-
-Bash
-
-git clone https://github.com/your-repo/cinelab-pro.git
-cd cinelab-pro
-Install Dependencies:
-
-Bash
-
-pip install streamlit google-generativeai
-Configure Secrets: Create a .streamlit/secrets.toml file and add your Google API Key:
-
-Ini, TOML
-
-GOOGLE_API_KEY = "YOUR_API_KEY_HERE"
-Prepare Library Data: Ensure your data/library.json is populated with your camera, lens, and artist database.
-
-🖥️ Usage
-Run the Application:
-
-Bash
-
-streamlit run main.py
-Reference: Upload your 2D reference image.
 
 Equipment: Select your camera body and lens.
 
