@@ -19,8 +19,7 @@ lib = load_lib()
 
 import google.generativeai as genai
 
-# Anahtarı direkt tırnak içinde buraya yapıştır
-my_api_key = "AIzaSyAMC274L7JfkhTHnNZxE_1ZCt8FCljvnKo" 
+
 
 genai.configure(api_key=my_api_key)
 
