@@ -19,7 +19,7 @@ lib = load_lib()
 
 import google.generativeai as genai
 
-
+my_api_key = st.secrets["GOOGLE_API_KEY"]
 
 genai.configure(api_key=my_api_key)
 
