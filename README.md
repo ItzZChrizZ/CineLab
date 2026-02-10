@@ -16,7 +16,7 @@ compatibility: Requires Node.js 20+. At least one AI provider API key (Google Ge
 
 # Cinelab
 
-**AI-powered cinematography recipe engine by [Kraftreich](https://kraftreich.com).**
+**AI-powered cinematography recipe engine by Kraftreich.**
 
 Cinelab takes a reference photograph and a set of creative choices — camera body, lens, artistic influence, lighting setup — and generates a structured JSON recipe that describes how to recreate and elevate that image from a Director of Photography's perspective.
 
@@ -249,5 +249,5 @@ The idea was simple: a Director of Photography shouldn't need to write a 500-wor
 
 This is what happens when domain expertise meets AI-assisted development. The Creative Director knows *what* the tool should do. Claude knows *how* to build it. Neither could have done it alone.
 
-> **Cinelab** is a [Kraftreich](https://kraftreich.com) tool.
+> **Cinelab** is a Kraftreich tool.
 > Vibe-coded from zero to production — one prompt at a time.
