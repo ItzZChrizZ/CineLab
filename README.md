@@ -221,3 +221,22 @@ The prompt builder produces a structured DP brief with:
 | Fonts | Warbler (headlines) + Avenir (body) |
 | CLI Runtime | tsx (for batch scripts) |
 | Linter | ESLint 9 |
+
+## Roadmap
+
+Planned features and improvements for future releases:
+
+| Feature | Description | Status |
+|---------|------------|--------|
+| **New AI Providers** | Mistral, Grok, and local model support (Ollama) | Planned |
+| **IDE Plugins** | Native extensions for VS Code, Cursor, and Antigravity — run Cinelab directly from the editor sidebar | Planned |
+| **Video Support** | Analyze video clips frame-by-frame to generate time-coded cinematography recipes across scenes | Planned |
+| **Extended Library** | More camera bodies, anamorphic lenses, vintage glass, and an expanded photographer roster covering street, documentary, and editorial genres | Planned |
+| **Recipe Preview** | Visual preview of the generated recipe — simulated lighting diagram + mood board before export | Planned |
+| **Collaborative Configs** | Share and import `cinelab-config.json` presets across teams | Planned |
+
+---
+
+> **Cinelab** is a [Kraftreich](https://kraftreich.com) tool.
+> Built for Directors of Photography who want precision — not guesswork.
+> Upload a reference, define your vision, let the engine handle the physics.
