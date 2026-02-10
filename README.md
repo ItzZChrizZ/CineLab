@@ -237,6 +237,17 @@ Planned features and improvements for future releases:
 
 ---
 
+## The Story Behind Cinelab
+
+Cinelab wasn't built by a team of frontend engineers. It was built by a **Creative Director** — through conversation.
+
+The entire application, from the multi-provider AI engine to the 5-step wizard UI to the CLI batch system, was developed through **vibe coding with Claude**. No boilerplate was copy-pasted from Stack Overflow. No components were dragged from a UI kit. Every architecture decision, every prompt engineering rule, every adapter pattern was born from a back-and-forth dialogue between a creative mind and an AI pair programmer.
+
+The idea was simple: a Director of Photography shouldn't need to write a 500-word prompt to get a consistent lighting recipe. They should pick a camera, pick a lens, pick an artist they admire, and let the system translate that intent into physics. That's what Cinelab does.
+
+**What started as a Streamlit prototype** became a full React 19 + TypeScript application with provider-agnostic architecture, enforced JSON schemas, parallel batch processing, and multi-IDE support — all built through prompts, not sprints.
+
+This is what happens when domain expertise meets AI-assisted development. The Creative Director knows *what* the tool should do. Claude knows *how* to build it. Neither could have done it alone.
+
 > **Cinelab** is a [Kraftreich](https://kraftreich.com) tool.
-> Built for Directors of Photography who want precision — not guesswork.
-> Upload a reference, define your vision, let the engine handle the physics.
+> Vibe-coded from zero to production — one prompt at a time.
