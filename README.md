@@ -5,7 +5,7 @@ description: >
   structured JSON lighting/camera recipes using a 5-step wizard. Supports Gemini, OpenAI,
   and Anthropic as interchangeable providers. Includes CLI batch mode for processing
   hundreds of images in parallel.
-license: Proprietary
+license: Apache-2.0
 metadata:
   author: Kraftreich
   version: "2.4"
