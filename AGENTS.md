@@ -1,0 +1,28 @@
+# Cinelab — Codex / Agent Instructions
+
+## Magic Commands
+
+When the user types any of these commands, execute them immediately:
+
+| Command | Action |
+|---------|--------|
+| `StartEngine!` | `cd /Users/yamacozkan/Desktop/Kraftreich/Tools/Cinelab && npm run start-engine` |
+| `StopEngine!` | `cd /Users/yamacozkan/Desktop/Kraftreich/Tools/Cinelab && npm run stop-engine` |
+| `Fabrication! <folder>` | `cd /Users/yamacozkan/Desktop/Kraftreich/Tools/Cinelab && npm run fabrication -- <folder>` |
+| `StopFabrication!` | `cd /Users/yamacozkan/Desktop/Kraftreich/Tools/Cinelab && npm run stop-fabrication` |
+
+- `<folder>` is the path the user provides after "Fabrication!"
+- Example: `Fabrication! ./photos` or `Fabrication! /Users/yamacozkan/Desktop/shoots`
+- Optional flags: `--concurrency 5`, `--config ./custom.json`
+
+## Provider
+
+Provider is auto-detected from available API keys in `.env`. No manual config needed.
+Priority: explicit `VITE_PROVIDER` > first available key (Gemini > OpenAI > Anthropic).
+
+## Project Info
+
+- **Path:** `/Users/yamacozkan/Desktop/Kraftreich/Tools/Cinelab/`
+- **Stack:** React 19 + TypeScript + Vite + Tailwind v4
+- **Port:** 3000
+- **Engine:** Multi-AI (Gemini / OpenAI / Anthropic) — auto-detected

@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "project": "CineLab",
+    "version": "2.4",
+    "spatial_logic": {
+      "pan": "0 is center, 45 is right, 315 is left.",
+      "tilt": "0 is eye level, 45 is top-down."
+    }
+  },
+  "photographers": {
+    "Automotive": {
+      "Bjorn Nieborg": { "style": "Rig shots, motion blur mastery.", "lighting": "Soft natural transitions.", "vibe": "Speed, precision." },
+      "Dhaval Dhairyawan": { "style": "Abstract car details.", "lighting": "Macro-focused lighting.", "vibe": "Intricate." },
+      "Hans G. Lehmann": { "style": "Spy-shot aesthetic.", "lighting": "Flat, direct lighting.", "vibe": "Secretive." },
+      "Jeff Zwart": { "style": "Gritty, cinematic racing.", "lighting": "Natural harsh light.", "vibe": "Raw power." },
+      "Jeremy Cliff": { "style": "High-end commercial.", "lighting": "Meticulous light painting.", "vibe": "Luxury." },
+      "John Zhang": { "style": "Minimalist form focus.", "lighting": "Golden hour specialist.", "vibe": "Serene." },
+      "Larry Chen": { "style": "Action-packed culture.", "lighting": "Dynamic outdoor light.", "vibe": "Energetic." },
+      "Pete Biro": { "style": "Vintage racing, film look.", "lighting": "Natural film exposure.", "vibe": "Nostalgic." },
+      "Thomas van Rooij": { "style": "Dramatic hyper-car art.", "lighting": "High contrast studio.", "vibe": "Aggressive." },
+      "Tyler Novatin": { "style": "Modern automotive lifestyle.", "lighting": "Available street light.", "vibe": "Contemporary." }
+    },
+    "Cinematic": {
+      "Emmanuel Lubezki": { "style": "Wide-angle, long takes.", "lighting": "Magic hour glows.", "vibe": "Fluid, organic." },
+      "Hoyte van Hoytema": { "style": "Large format look.", "lighting": "Naturalistic, high HDR.", "vibe": "Immersive." },
+      "Roger Deakins": { "style": "Master of naturalism.", "lighting": "Practical lights.", "vibe": "Structured." }
+    },
+    "Fashion": {
+      "Coreen Simpson": { "style": "Street-fashion culture.", "lighting": "Analog film textures.", "vibe": "Authentic." },
+      "David LaChapelle": { "style": "Hyper-realistic, kitsch.", "lighting": "Highly artificial.", "vibe": "Surreal." },
+      "Emanuele Ferrari": { "style": "Natural eroticism.", "lighting": "Soft natural light.", "vibe": "Sensual." },
+      "Juergen Teller": { "style": "Overexposed, raw.", "lighting": "Direct camera flash.", "vibe": "Anti-glamour." },
+      "Kacper Kasprzyk": { "style": "Architectural, minimal.", "lighting": "Cold studio light.", "vibe": "Modern." },
+      "Mario Testino": { "style": "High-energy luxury.", "lighting": "Balanced studio light.", "vibe": "Posh." },
+      "Tim Walker": { "style": "Surreal, fairy-tale.", "lighting": "Soft dream tones.", "vibe": "Whimsical." },
+      "Viviane Sassen": { "style": "Abstracted bodies.", "lighting": "High-contrast sunlight.", "vibe": "Bold." }
+    },
+    "Fine Art Nude": {
+      "André de Dienes": { "style": "Classic fine art.", "lighting": "Master of Low-Key.", "vibe": "Intimate." },
+      "Bettina Rheims": { "style": "Vibrant fashion-nude.", "lighting": "Controlled studio.", "vibe": "Expressive." },
+      "Bill Brandt": { "style": "Distorted perspective.", "lighting": "Extreme shadows.", "vibe": "Dark." },
+      "David Hamilton": { "style": "Soft-focus, painterly.", "lighting": "Dreamy haze.", "vibe": "Nostalgic." },
+      "Edward Weston": { "style": "Modernist body forms.", "lighting": "Soft window light.", "vibe": "Sculptural." },
+      "Francesca Woodman": { "style": "Ghostly exposures.", "lighting": "Decaying interior light.", "vibe": "Haunting." },
+      "Harley Weir": { "style": "Raw, visceral energy.", "lighting": "Warm, tactile tones.", "vibe": "Organic." },
+      "Helmut Newton": { "style": "High-fashion provocation.", "lighting": "Direct flash, hard shadows.", "vibe": "Dominant." },
+      "Herb Ritts": { "style": "Statuesque, athletic.", "lighting": "Bright California sun.", "vibe": "Powerful." },
+      "Jan Saudek": { "style": "Hand-colored, theatrical.", "lighting": "Single-point directional.", "vibe": "Vintage." },
+      "Lucien Clergue": { "style": "Body and earth textures.", "lighting": "Mediterranean sun.", "vibe": "Elemental." },
+      "Nobuyoshi Araki": { "style": "Japanese I-Novel.", "lighting": "Direct, unpolished.", "vibe": "Raw." },
+      "Paul Kooiker": { "style": "Deconstructed, surreal.", "lighting": "Flat studio light.", "vibe": "Strange." },
+      "Petra Collins": { "style": "Female gaze, candy-colored.", "lighting": "Hazy, colorful gels.", "vibe": "Youthful." },
+      "Ralph Gibson": { "style": "Focus on edges.", "lighting": "Hard localized light.", "vibe": "Graphic." }
+    },
+    "Product / Still Life": {
+      "Aaron Tilley": { "style": "Conceptual tension.", "lighting": "High-precision.", "vibe": "Creative." },
+      "Carl Kleiner": { "style": "Minimalist geometric.", "lighting": "Flat, even light.", "vibe": "Graphic." },
+      "Daniel Sannwald": { "style": "Futuristic CGI-like.", "lighting": "Experimental gels.", "vibe": "Cyberpunk." },
+      "Irving Penn": { "style": "Elegant simplicity.", "lighting": "North-light studio.", "vibe": "Timeless." },
+      "Jonathan Knowles": { "style": "High-speed liquids.", "lighting": "Strobe-frozen.", "vibe": "Technical." },
+      "Jonathan Zawada": { "style": "Digital-physical hybrid.", "lighting": "Synthetic light.", "vibe": "Alien." },
+      "Karl Taylor": { "style": "Technical perfection.", "lighting": "Complex multi-light.", "vibe": "Commercial." },
+      "Markus Jans": { "style": "Moody, textural.", "lighting": "Dark focused light.", "vibe": "Atmospheric." },
+      "Mike Kus": { "style": "Lifestyle product.", "lighting": "Natural daylight.", "vibe": "Warm." },
+      "Rich Stapleton": { "style": "Minimal earthy.", "lighting": "Soft natural shadows.", "vibe": "Serene." },
+      "Robert Clark": { "style": "Detailed observational.", "lighting": "Even studio light.", "vibe": "Precise." },
+      "Thomas Prior": { "style": "Accidental art.", "lighting": "Soft glows.", "vibe": "Artistic." },
+      "Tim Tadder": { "style": "Explosive, colorful.", "lighting": "Intense strobes.", "vibe": "Powerful." }
+    },
+    "Street": {
+      "Alan Schaller": { "style": "B&W architecture.", "lighting": "Hard sunlight shadows.", "vibe": "Geometric." },
+      "Alex Webb": { "style": "Complex layers.", "lighting": "Harsh golden light.", "vibe": "Vibrant." },
+      "Bruce Gilden": { "style": "In-your-face.", "lighting": "Direct flash.", "vibe": "Gritty." },
+      "Diane Arbus": { "style": "Provocative portraits.", "lighting": "Direct frontal flash.", "vibe": "Honest." },
+      "Henri Cartier-Bresson": { "style": "Decisive Moment.", "lighting": "Available light.", "vibe": "Storytelling." },
+      "Josef Koudelka": { "style": "Panoramic nomad life.", "lighting": "High-grain natural.", "vibe": "Epic." },
+      "Scott Schuman": { "style": "Street-fashion soul.", "lighting": "Soft urban daylight.", "vibe": "Stylish." },
+      "Vivian Maier": { "style": "Secretive self-portraits.", "lighting": "Natural shadows.", "vibe": "Observant." }
+    }
+  },
+  "cameras": {
+    "Apple iPhone 15 Pro": { "info": "Mobile versatility.", "vibe": "Sharp HDR." },
+    "Apple iPhone 16 Pro": { "info": "Advanced computational.", "vibe": "Deep focus sharp." },
+    "Arri Alexa Mini LF": { "info": "Hollywood digital back.", "vibe": "Creamy skin tones." },
+    "Canon 1D-X Mark III": { "info": "Sports/Action DSLR.", "vibe": "Fast commercial." },
+    "Canon 5D Mark II": { "info": "Classic digital workhorse.", "vibe": "Natural colors." },
+    "Canon 5D Mark IV": { "info": "Professional standard.", "vibe": "Versatile." },
+    "Canon AE-1 Program": { "info": "1980s 35mm film SLR.", "vibe": "Vintage warmth." },
+    "Canon EOS R3": { "info": "Flagship mirrorless.", "vibe": "Fast precision." },
+    "Contax 645": { "info": "Medium format legend.", "vibe": "Painterly depth." },
+    "Fujifilm GFX 100 II": { "info": "Large format power.", "vibe": "Incredible texture." },
+    "Hasselblad 500C/M": { "info": "Medium format film icon.", "vibe": "Timeless sculptures." },
+    "Leica M6 TTL": { "info": "Legendary rangefinder.", "vibe": "Street-style soul." },
+    "Mamiya RB67": { "info": "Studio beast (6x7).", "vibe": "Massive negatives." },
+    "Mamiya RZ67 Pro II": { "info": "The portrait workhorse.", "vibe": "Massive detail." },
+    "Nikon D90": { "info": "Early digital classic.", "vibe": "Crisp nostalgic." },
+    "Nikon F3": { "info": "Professional film workhorse.", "vibe": "Rugged analog." },
+    "Nikon Z9": { "info": "Mirrorless power.", "vibe": "Clinical sharpness." },
+    "OM System OM-1 Mark II": { "info": "Micro four-thirds king.", "vibe": "Compact sharp." },
+    "Pentax 67": { "info": "Heavyweight film icon.", "vibe": "Incredible bokeh." },
+    "Phase One XF IQ4": { "info": "150MP precision.", "vibe": "Hyper-realistic." },
+    "RED V-Raptor XL": { "info": "Extreme cinematic res.", "vibe": "Sci-fi sharp." },
+    "Sony Alpha 1": { "info": "Mirrorless flagship.", "vibe": "Ultra-fast detail." },
+    "Sony Venice 2": { "info": "Cinema digital back.", "vibe": "Deep rich blacks." }
+  },
+  "lenses": {
+    "24-70mm Zoom": { "info": "Versatile all-rounder.", "character": "Consistent sharp." },
+    "24mm Prime": { "info": "Wide-angle storytelling.", "character": "Dynamic perspective." },
+    "35mm Prime": { "info": "The human eye field.", "character": "Natural, documentary." },
+    "50mm Prime": { "info": "The standard lens.", "character": "No distortion." },
+    "70-200mm Zoom": { "info": "Compression workhorse.", "character": "Smooth background." },
+    "85mm Prime": { "info": "Portrait King.", "character": "Artistic bokeh." },
+    "105mm Prime": { "info": "Telephoto details.", "character": "Flattering face." },
+    "135mm Prime": { "info": "Background melter.", "character": "Extreme compression." },
+    "100mm Macro": { "info": "Microscopic detail.", "character": "Reveal skin pores." },
+    "14mm Ultra-Wide": { "info": "Extreme field.", "character": "Distorted dynamic." },
+    "24mm Tilt-Shift": { "info": "Perspective control.", "character": "No converging lines." },
+    "85mm Defocus": { "info": "Soft blur control.", "character": "Dreamy portraits." },
+    "Vintage Helios": { "info": "Soviet swirly bokeh.", "character": "Dreamy nostalgic." },
+    "Petzval 85mm": { "info": "Circular blur effect.", "character": "Sharp center focus." }
+  },
+  "lighting_presets": {
+      "Studio": {
+        "Butterfly": { "info": "Top-centered light.", "result": "Glamorous face." },
+        "Clamshell": { "info": "Dual-light beauty setup.", "result": "Soft skin focus." },
+        "Low Key Lighting": { "info": "Deep shadows, high contrast.", "result": "Visceral artistic mood." },
+        "Rembrandt": { "info": "45-degree angle, triangle shadow.", "result": "Classic structured." },
+        "Split": { "info": "90-degree side light.", "result": "Mysterious contrast." },
+        "Custom Studio Lights": { "info": "Manual multi-light setup.", "result": "Custom professional look." }
+    },
+    "Outdoor": {
+      "Blue Hour": { "info": "Twilight period.", "result": "Ethereal cool blues." },
+      "Daylight": { "info": "Direct sun light.", "result": "Clear natural color." },
+      "Evening": { "info": "Soft setting sun.", "result": "Mellow warm mood." },
+      "Golden Hour": { "info": "Sun before sunset.", "result": "Romantic glow." },
+      "Night": { "info": "Low ambient city light.", "result": "Cinematic gritty." },
+      "Noon": { "info": "Overhead direct sun.", "result": "Harsh extreme shadows." }
+    }
+  }
+}
