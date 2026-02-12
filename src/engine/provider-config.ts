@@ -22,7 +22,13 @@ function detectProvider(env: Record<string, string | undefined>): { providerId: 
   const explicit = env.VITE_PROVIDER as ProviderId | undefined
   if (explicit) {
     const key = env[KEY_ENV_VARS[explicit]]
-    if (key) return { providerId: explicit, apiKey: key }
+    if (!key) {
+      throw new Error(
+        `Provider "${explicit}" selected via VITE_PROVIDER, but ${KEY_ENV_VARS[explicit]} is missing.\n` +
+        `Add the required key to your .env or remove VITE_PROVIDER to auto-detect.`
+      )
+    }
+    return { providerId: explicit, apiKey: key }
   }
 
   // 2. Auto-detect from available keys

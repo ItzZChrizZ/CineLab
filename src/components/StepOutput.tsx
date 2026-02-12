@@ -38,6 +38,7 @@ export function StepOutput({ state, dispatch, lib }: StepOutputProps) {
     try {
       const json = await runCineEngine(prompt, state.referenceImage)
       setResult(json)
+      dispatch({ type: "SET_GENERATED_PROMPT", prompt: json })
     } catch (e) {
       setError(e instanceof Error ? e.message : "Unknown error")
     } finally {
@@ -47,9 +48,13 @@ export function StepOutput({ state, dispatch, lib }: StepOutputProps) {
 
   const handleCopy = async () => {
     if (!result) return
-    await navigator.clipboard.writeText(result)
-    setCopied(true)
-    setTimeout(() => setCopied(false), 2000)
+    try {
+      await navigator.clipboard.writeText(result)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Clipboard access denied")
+    }
   }
 
   const handleDownload = () => {

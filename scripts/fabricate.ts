@@ -52,10 +52,14 @@ function resolveProviderConfig(): ProviderConfig {
   const explicit = process.env.VITE_PROVIDER as ProviderId | undefined
   if (explicit) {
     const key = process.env[KEY_ENV_VARS[explicit]]
-    if (key) {
-      const model = process.env.VITE_MODEL ?? DEFAULT_MODELS[explicit]
-      return { providerId: explicit, model, apiKey: key }
+    if (!key) {
+      throw new Error(
+        `Provider "${explicit}" selected via VITE_PROVIDER, but ${KEY_ENV_VARS[explicit]} is missing.\n` +
+        `Add the required key to your .env or remove VITE_PROVIDER to auto-detect.`
+      )
     }
+    const model = process.env.VITE_MODEL ?? DEFAULT_MODELS[explicit]
+    return { providerId: explicit, model, apiKey: key }
   }
 
   // 2. Auto-detect from available keys
