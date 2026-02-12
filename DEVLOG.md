@@ -1,5 +1,36 @@
 # Cinelab React — Dev Log
 
+## v2.4.1 — Code Review Fixes (2026-02-12)
+Full code review applied from Produkt learnings. All critical + medium + low issues fixed.
+
+**Critical Fixes:**
+- ✅ Provider override logic: now matches Engelism/Produkt pattern
+  - Previous: silent fallback when explicit provider had no key
+  - Now: explicit error if `VITE_PROVIDER` set but key missing/invalid
+  - Validates provider name against valid values (`provider-config.ts`)
+- ✅ Output validation: StepOutput now dispatches `SET_GENERATED_PROMPT`
+  - Previous: completion state not tracked properly
+  - Now: reducer properly marks step as complete when prompt generated
+
+**Medium Fixes:**
+- ✅ Clipboard error handling: try/catch around `navigator.clipboard.writeText`
+  - Previous: unhandled rejection on non-HTTPS or permission denied
+  - Now: graceful error handling, prevents console errors
+
+**Low Fixes:**
+- ✅ Memory leak: revoke old object URL on new reference upload
+  - Previous: only cleaned up URLs on CLEAR/RESET
+  - Now: revokes previous URL when SET_REFERENCE dispatched (`useWizardReducer.ts`)
+
+**Fabrication Script:**
+- ✅ Provider validation: explicit error if config specifies invalid provider
+
+All tests passing:
+- `npm run lint` — ✅ no errors
+- `npm run build` — ✅ successful
+
+1 commit pushed to GitHub: 54c23d6
+
 ## Proje
 - **Path:** `/Users/yamacozkan/Desktop/Kraftreich/Tools/Cinelab-React/`
 - **Stack:** React 19 + TypeScript + Vite + Tailwind CSS v4
