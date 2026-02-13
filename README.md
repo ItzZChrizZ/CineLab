@@ -18,6 +18,25 @@ compatibility: Requires Node.js 20+. At least one AI provider API key (Google Ge
 
 **AI-powered cinematography recipe engine by Kraftreich.**
 
+---
+
+## The Story Behind Cinelab
+
+Cinelab wasn't built by a team of frontend engineers. It was built by a **Creative Director** — through conversation.
+
+The entire application, from the multi-provider AI engine to the 5-step wizard UI to the CLI batch system, was developed through **vibe coding with Claude**. No boilerplate was copy-pasted from Stack Overflow. No components were dragged from a UI kit. Every architecture decision, every prompt engineering rule, every adapter pattern was born from a back-and-forth dialogue between a creative mind and an AI pair programmer.
+
+The idea was simple: a Director of Photography shouldn't need to write a 500-word prompt to get a consistent lighting recipe. They should pick a camera, pick a lens, pick an artist they admire, and let the system translate that intent into physics. That's what Cinelab does.
+
+**What started as a Streamlit prototype** became a full React 19 + TypeScript application with provider-agnostic architecture, enforced JSON schemas, parallel batch processing, and multi-IDE support — all built through prompts, not sprints.
+
+This is what happens when domain expertise meets AI-assisted development. The Creative Director knows *what* the tool should do. Claude knows *how* to build it. Neither could have done it alone.
+
+> **Cinelab** is a Kraftreich tool.
+> Vibe-coded from zero to production — one prompt at a time.
+
+---
+
 Cinelab takes a reference photograph and a set of creative choices — camera body, lens, artistic influence, lighting setup — and generates a structured JSON recipe that describes how to recreate and elevate that image from a Director of Photography's perspective.
 
 ## How It Works
@@ -235,19 +254,3 @@ Planned features and improvements for future releases:
 | **Recipe Preview** | Visual preview of the generated recipe — simulated lighting diagram + mood board before export | Planned |
 | **Collaborative Configs** | Share and import `cinelab-config.json` presets across teams | Planned |
 
----
-
-## The Story Behind Cinelab
-
-Cinelab wasn't built by a team of frontend engineers. It was built by a **Creative Director** — through conversation.
-
-The entire application, from the multi-provider AI engine to the 5-step wizard UI to the CLI batch system, was developed through **vibe coding with Claude**. No boilerplate was copy-pasted from Stack Overflow. No components were dragged from a UI kit. Every architecture decision, every prompt engineering rule, every adapter pattern was born from a back-and-forth dialogue between a creative mind and an AI pair programmer.
-
-The idea was simple: a Director of Photography shouldn't need to write a 500-word prompt to get a consistent lighting recipe. They should pick a camera, pick a lens, pick an artist they admire, and let the system translate that intent into physics. That's what Cinelab does.
-
-**What started as a Streamlit prototype** became a full React 19 + TypeScript application with provider-agnostic architecture, enforced JSON schemas, parallel batch processing, and multi-IDE support — all built through prompts, not sprints.
-
-This is what happens when domain expertise meets AI-assisted development. The Creative Director knows *what* the tool should do. Claude knows *how* to build it. Neither could have done it alone.
-
-> **Cinelab** is a Kraftreich tool.
-> Vibe-coded from zero to production — one prompt at a time.
