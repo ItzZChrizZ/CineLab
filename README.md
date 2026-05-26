@@ -39,6 +39,48 @@ This is what happens when domain expertise meets AI-assisted development. The Cr
 
 Cinelab takes a reference photograph and a set of creative choices — camera body, lens, artistic influence, lighting setup — and generates a structured JSON recipe that describes how to recreate and elevate that image from a Director of Photography's perspective.
 
+## Example Transformations
+
+These examples show CineLab used as a reference-to-recipe engine: an original image is analyzed through camera, lens, genre, artist, lighting, and ratio choices, then translated into a controlled generated output.
+
+### Case 01 — Fashion Studio Reinterpretation
+
+Street-fashion reference translated into a clean studio editorial while preserving the black leather styling language, full-body framing, and low-key fashion attitude.
+
+| Original Reference | Generated Studio Output |
+| --- | --- |
+| ![Original fashion reference](assets/cinelab/Edited-14.png) | ![Generated studio fashion output](assets/cinelab/Recreated-14.jpeg) |
+
+| Setting | Value |
+| --- | --- |
+| Camera | Canon 5D Mark series |
+| Lens | 24mm Prime |
+| Aperture | f/2.8 |
+| ISO | 200 |
+| Genre | Fashion |
+| Artist Influence | Coreen Simpson |
+| Lighting | Custom Studio |
+| Aspect Ratio | 4:5 |
+
+### Case 02 — Cinematic Rembrandt Reinterpretation
+
+Reference image translated into a cinematic editorial setup with Roger Deakins-inspired atmosphere, Rembrandt contrast, and a 4:5 composition.
+
+| Original Reference | Generated Cinematic Output |
+| --- | --- |
+| ![Original cinematic reference](assets/cinelab/Edited-59.png) | ![Generated cinematic output](assets/cinelab/Recreated-59.jpeg) |
+
+| Setting | Value |
+| --- | --- |
+| Camera | Canon 5D Mark II |
+| Lens | 24mm Prime |
+| Aperture | f/2.8 |
+| ISO | 200 |
+| Genre | Cinematic |
+| Artist Influence | Roger Deakins |
+| Lighting | Rembrandt |
+| Aspect Ratio | 4:5 |
+
 ## How It Works
 
 ```
